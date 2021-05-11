@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content"><channel><title>3apio</title><description>桂康佳的个人博客,Swift,Swift UI,iOS APP</description><link>http://www.fatbobman.com</link><language>zh</language><lastBuildDate>Thu, 1 Apr 2021 14:17:30 +0800</lastBuildDate><pubDate>Thu, 1 Apr 2021 14:17:30 +0800</pubDate><ttl>250</ttl><atom:link href="http://www.fatbobman.com/feed.rss" rel="self" type="application/rss+xml"/><item><guid isPermaLink="true">http://www.fatbobman.com/posts/coredata-in-swiftui</guid><title>聊一下在SwiftUI中使用CoreData</title><description>本文并非一个教你如何在SwiftUI下使用CoreData的教程。主要探讨的是在我近一年的SwiftUI开发中使用CoreData的教训、经验、心得。</description><link>http://www.fatbobman.com/posts/coredata-in-swiftui</link><pubDate>Wed, 28 Oct 2020 12:00:00 +0800</pubDate><content:encoded><![CDATA[<blockquote><p>本文并非一个教你如何在SwiftUI下使用CoreData的教程。主要探讨的是在我近一年的SwiftUI开发中使用CoreData的教训、经验、心得。</p></blockquote><h2>SwiftUI lifecycle 中如何声明持久化存储和上下文</h2><p>在XCode12中，苹果新增了SwiftUI lifecycle，让App完全的SwiftUI化。不过这就需要我们使用新的方法来声明持久化存储和上下文。</p><p>好像是从beta6开始，XCode 12提供了基于SwiftUI lifecycle的CoreData模板</p><pre data-language="swift"><code>@main
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content"><channel><title>3apio</title><description>桂康佳的个人博客,Swift,Swift UI,iOS APP</description><link>http://www.fatbobman.com</link><language>zh</language><lastBuildDate>Tue, 11 May 2021 16:00:37 +0800</lastBuildDate><pubDate>Tue, 11 May 2021 16:00:37 +0800</pubDate><ttl>250</ttl><atom:link href="http://www.fatbobman.com/feed.rss" rel="self" type="application/rss+xml"/><item><guid isPermaLink="true">http://www.fatbobman.com/posts/sapioBill</guid><title>SapioBill</title><description>SapioBill 是一款采用iCloud记录数据的记账App(iOS端)，主要功能：多端同步，账单导出，无网络环境使用等，亦是个人独立开发第一款App</description><link>http://www.fatbobman.com/posts/sapioBill</link><pubDate>Tue, 11 May 2021 15:38:00 +0800</pubDate><content:encoded><![CDATA[<h2>起因</h2><p>之前由于工作环境改变，面试过程中意识到自己还需更多的技能语言，就在第二份工作间隙开发了这款App，也满足了自己作为程序员有自己的开发的产品的成就感。虽然作品粗糙，但完整做出来的时候也算满意😊</p><h2>SapioBill主要的特点</h2><ul><li>iCloud云存储，数据永久保存数据保存在云服务器上，同时支持多端同步，数据安全有保障。</li><li>可随意自定义账单类目，使用者可在App中记录多种类型的数据。能够满足你生活中绝大多数情况下的需要。</li><li>完善的图表机制 新增了更多的图表显示方式已应对更多的数据种类。</li></ul><p>在这里可以下载 <a href="https://apps.apple.com/"><img src="http://cdn.fatbobman.com/appStoreIcon.svg" alt="pic"/></a></p>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/film_reviews_20210412</guid><title>《我的国王》</title><description>《我的国王》</description><link>http://www.fatbobman.com/posts/film_reviews_20210412</link><pubDate>Mon, 12 Apr 2021 12:00:00 +0800</pubDate><content:encoded><![CDATA[<blockquote><p>《我的国王》-- 影评</p></blockquote><p>对于亲密关系，我的实践经验非常少，我本应该像涉世未深的少女一样对它抱有期待，但一部又一部的电影却让对亲密关系保持警觉。有趣的是，我也爱看甜甜的爱情电影，但它们提供的糖分保质期往往非常短，甚至是过目即忘，而像《我的国王》、《婚姻故事》、《革命之路》这一类影片却能在我心里留下深刻的印象，或许是因为痛苦就是比快乐来得要真实吧。<br><br> 最近播客听多了，喜欢用亲密关系去形容两个人的连结，因为爱情和婚姻，它们不是一个东西，不错的是在这部电影里同时出现了，于是你可以更直观的感受到两者的不同。<br><br> 爱情的发生有多快多容易呢？在酒吧里的一眼对视，邀请对方到自己家里彻夜长谈，清晨交换电话，在床榻上仍保有最后一丝理智时，女主问“你不可能这么快就爱上我？”男主答“那需要多长时间？我十分钟后再来”。从此一发不可收拾，他们借上头的荷尔蒙行使疯狂的权力，至于做了什么事情，我都不记得，因为那通常都是旁观者所无法理解的，只记得过程中有很多次的开怀大笑。<br><br> 那婚姻的奔溃又有多快多容易呢？男主在一次事后以非常强势又带着央求的态度恳请女主为他生一个小孩，从此两人关系从爱情转换到婚姻，期间没有过渡，而它的变化也是彻底并具有毁灭性的，并将电影一步步推向了高潮。<br><br> 影片全程站在女性的角度来叙述，让你无法了解男主的心理变化过程，但这也是让我觉得挺有意思的一个地方，那就是男主在电影里一直保持着情场高手、玩世不恭的形象，从头到尾变化的似乎只有发型。而女主却经历了这么多，从一个拥有一定社会地位的律师，到沉迷爱情，继而孕后忧郁，产后丧偶式育子，期间丈夫酗酒吸毒，疑似出轨，就算是离婚后两人也一直是纠缠不清的状态。<br><br> 最让我心碎的一幕是，女主正在经历非常折磨人的怀孕过程，而男主却私自在家附近租了一间小公寓，并和女主解释“我们只在一起度过美好的时光，我们会很开心见到彼此，会重新开怀大笑，我们已经很久没有这样了。”<br><br> 到这里，我又再一次意识到在关系里改变的重要性，具体来说应该是同步改变的重要性。在相遇当时，女主因为男主的自信风流而爱上他，而在分别之时，同样也是因为男主的自信风流而压垮她。他们对家庭的想象不一样，女主做好了为妻为母的准备，男主却没有。女主想要往前走，男主却留在了原地，甚至质问她“你为什么要我变成你希望的样子呢？” 女主的生活就像她那受伤的膝盖一样，只能向后弯曲却无法向前。<br><br> “我不想再爱你了，我也不想再痛苦了”，潜台词是我仍然爱你，但爱你让我痛苦。 这部电影的情感发生或许太西方，对标的亚洲电影让我想到了日本的《剧场》，和这部电影相似，受困的是女主角，更可怕的是试图为男方开脱的也是女主，“其实你没有任何过错，因为什么都没变，擅自成长，着急有变化的人是我，所以我越来越讨厌自己。”<br><br> 在这部电影里，男女双方都是有着很强个性的人，我看到的不是性别的对立，感受到的只是关系的复杂。生活不是扁平向前的，我们就像在多维关系里的两个点，当生活向前滚动的时候，两个点如果不是一起向前，回头看早已错落在空间里的不同坐标上。</p>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/coredata-in-swiftui</guid><title>聊一下在SwiftUI中使用CoreData</title><description>本文并非一个教你如何在SwiftUI下使用CoreData的教程。主要探讨的是在我近一年的SwiftUI开发中使用CoreData的教训、经验、心得。</description><link>http://www.fatbobman.com/posts/coredata-in-swiftui</link><pubDate>Wed, 28 Oct 2020 12:00:00 +0800</pubDate><content:encoded><![CDATA[<blockquote><p>本文并非一个教你如何在SwiftUI下使用CoreData的教程。主要探讨的是在我近一年的SwiftUI开发中使用CoreData的教训、经验、心得。</p></blockquote><h2>SwiftUI lifecycle 中如何声明持久化存储和上下文</h2><p>在XCode12中，苹果新增了SwiftUI lifecycle，让App完全的SwiftUI化。不过这就需要我们使用新的方法来声明持久化存储和上下文。</p><p>好像是从beta6开始，XCode 12提供了基于SwiftUI lifecycle的CoreData模板</p><pre data-language="swift"><code>@main
 <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">CoreDataTestApp</span>: <span class="hljs-title">App</span> </span>{
     <span class="hljs-comment">//持久化声明</span>
     <span class="hljs-keyword">let</span> persistenceController = <span class="hljs-type">PersistenceController</span>.shared
@@ -299,4 +299,207 @@ sutudents.<span class="hljs-built_in">count</span>
         }
    }
 }
-</code></pre><p>总之数据皆对象</p>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/first_page</guid><title>If you need me, i will by your side until the life end</title><description></description><link>http://www.fatbobman.com/posts/first_page</link><pubDate>Wed, 28 Oct 2020 12:00:00 +0800</pubDate><content:encoded><![CDATA[]]></content:encoded></item></channel></rss>
+</code></pre><p>总之数据皆对象</p>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/first_page</guid><title>If you need me, i will by your side until the life end</title><description></description><link>http://www.fatbobman.com/posts/first_page</link><pubDate>Wed, 28 Oct 2020 12:00:00 +0800</pubDate><content:encoded><![CDATA[]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/month_record_20200324</guid><title>三月</title><description></description><link>http://www.fatbobman.com/posts/month_record_20200324</link><pubDate>Tue, 24 Mar 2020 12:00:00 +0800</pubDate><content:encoded><![CDATA[<h2>电影</h2><ul><li>★★★★☆ /2009 / 台湾 / 陈以文 / <a href="https://movie.douban.com/subject/3543490/?from=subject-page">桔醬的滋味</a> 过度情绪和略微煽情都不影响观感，演妈妈的演员让人很容易动情。台湾电影感人的点大都采用视觉化 不用过多言语来描述，一点一点侵入。不管在什么环境 什么阶段 努力生活的人都很可爱~ 一间，这儿子的，两间 这客房，三间 这孙子的，四间 ...我还是不打扰他们了</li></ul><h2>故事</h2><ul><li><a href="http://renjian.163.com/15/0723/16/AV7JV0OM000153N3.html">少年杀母事件</a> 生活永远比小说露骨</li></ul><h2>一首诗</h2><pre data-language="undefined"><code>
+            街头
+          作者：废名
+         
+      行到街头乃有汽车驶过，
+         乃有邮筒寂寞。
+           邮筒PO
+       乃记不起汽车号码X，
+       乃有阿拉伯数字寂寞，
+          汽车寂寞，
+          大街寂寞，
+          人类寂寞。
+</code></pre>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/month_record_20200302</guid><title>二月</title><description>一切都好</description><link>http://www.fatbobman.com/posts/month_record_20200302</link><pubDate>Wed, 4 Mar 2020 12:00:00 +0800</pubDate><content:encoded><![CDATA[<h2>电影</h2><ul><li>★★★★☆ /2019 / 台湾 / 钟孟宏 / <a href="https://movie.douban.com/subject/30292777/">阳光普照</a> 他坐在那裡，阿和進去了，這樣對大家都好，三鞠躬，關我什麼事，動物園，太陽 這樣對大家都好，把握時間掌控方向 花心，把握時間掌控方向 你車上有煙灰缸嗎，把握時間掌控方向 算我欠你的，菜頭，滿口袋的錢，我只是一個駕訓班教練，陳教練你有幾個小孩，遠行。</li></ul><ul><li>★★★★☆ /2016 / 韩国 / 尹佳恩 / <a href="https://movie.douban.com/subject/26616436/">我们的世界</a> 学生时没有过特别被孤立的状态 不过仍感觉到被孤立对于一个敏感的人实在是太伤。学校的老师和妈妈都很好 实属不易。看完这部电影，内心留下的是深深的害怕“被孤立”的恐惧。相信有过被孤立经历的孩子和被孤立恐惧的孩子，都能感到揪心 弟弟一番话很暖很理想 “我打浩然 浩然再打我 那我们什么时候玩啊 我只想玩”</li></ul><h2>书</h2><ul><li>★★★★★ /2017 / 台湾 / 袁哲生 /<a href="https://book.douban.com/subject/27104286/">寂寞的游戏</a> 女朋友带的书，在这不是太能静下心来看长篇的二月，很适合看这种短篇小故事，重点是能从中收获意外的发现那就是乐趣了（我没有告诉她，书中有个小故事恰好在电影阳光普照中有剧情讲述）</li></ul><h2>文</h2><p><a href="https://e.wht.one/b8e2/">武汉肺炎 50 天，全体中国人都在承受媒体死亡的代价</a><br> 我们需要的广场 已然消失</p><h2>一首诗</h2><pre data-language="undefined"><code>
+       夜间我在院子里洗脸 
+
+      夜间我在院子里洗脸，
+      粗鲁的群星在天上熠熠闪光。  
+      星辉好似斧头上的盐，  
+      装得满满的水桶变得冰凉。  
+
+      院门已经上了锁，  
+      凭良心说，大地神色严峻。  
+      未必在哪里能找得到依据，  
+      比新鲜粗麻布的真实更纯净。
+
+      星星好似盐在桶中融化，  
+      结上薄冰的水颜色更黑，  
+      死亡更纯，灾难更咸，  
+      大地更真实，也更可畏。
+ 
+</code></pre>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/month_record_20200114</guid><title>一月</title><description>By your side</description><link>http://www.fatbobman.com/posts/month_record_20200114</link><pubDate>Tue, 14 Jan 2020 12:00:00 +0800</pubDate><content:encoded><![CDATA[<h2>一首诗</h2><pre data-language="undefined"><code>
+         我用什么才能留住你 (博尔赫斯)
+
+      我用什么才能留住你？  
+      我给你瘦落的街道、绝望的落日、荒郊的月亮。   
+      我给你一个久久地望着孤月的人的悲哀。  
+
+      我给你我的书中所能蕴含的一切悟力，  
+      以及我生活中所能有的男子气概和幽默。  
+      我给你一个从未有过信仰的人的忠诚。  
+
+      我给你我设法保全的我自己的核心  
+      ——不营字造句，不和梦交易，  
+
+      不被时间、欢乐和逆境触动的核心。  
+      我给你早在你出生前多年的一个傍晚看到的一朵黄玫瑰的记忆。  
+      我给你关于你生命的诠释，  
+      关于你自己的理论，  
+      你的真实而惊人的存在。  
+
+
+      我给你我的寂寞、我的黑暗、我心的饥渴；  
+      我试图用困惑、危险、失败来打动你。 
+ 
+ `
+</code></pre>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/month_record_20191228</guid><title>十二月</title><description>好好走路</description><link>http://www.fatbobman.com/posts/month_record_20191228</link><pubDate>Sat, 28 Dec 2019 12:00:00 +0800</pubDate><content:encoded><![CDATA[<h2>结</h2><ul><li>老写些有的没的，是发泄情绪的一种方式，现在看来情绪都在工作和走路时候消解了，又或者说：今年如果学到什么，那就是体验到越心平气和越有力。有些习惯或坚持对做事毫无意义，但如果做什么都以结果为导向，自己心里是过不去的，也可能有些结果你未必承受得了 只能以此慰藉。有选择的放下，既不消磨意志，也不用感慨结果 挺好的啦！今年又快结束了，人长年纪心长草 希望自在灵性多一点。</li></ul><h2>书</h2><ul><li>博尔赫斯：<a href="https://book.douban.com/subject/25796120/">小径分岔的花园</a> 博尔赫斯曾提出一种假设：每过一分钟，一个人的‘自我’会洗牌一样同另一个人的‘自我’进行互换，在这互换的过程中身体会接受新的‘自我’并且忘掉旧身体的记忆。 关键词：梦 时间 宇宙。 遍布哲学伦理和逻辑的语汇，我表示理解不了太多。七部短篇总页数不到100，没有耐心看下去也不要紧 每次看都感觉像在重读。</li></ul><h2>播客</h2><ul><li><a href="https://theue.me/episode/pilgrimage-road/">无业游民：一个人的朝圣路</a> 想走。</li><li><a href="https://music.163.com/dj?id=2064666570&userid=103886762">大内密谈：你知道和不知道的小岛秀夫</a> 开始工作之后就慢慢不玩也不聊游戏了，要说原因还真不是没时间没精力之类，相反是觉得游戏在自己之前的记忆里是有一定的分量，说严重些是有些信仰的，这些都不好与人分享。一款好的游戏绝不是玩法致胜，它自身赋予的游戏理念和作者通过游戏想抒发的个人意识是值得大家去体会的。被称为第九艺术的VideoGame，希望有更多的发挥空间被更多人接受。</li></ul><h2>古文</h2><ul><li><strong>项脊轩志</strong> （节选）</li></ul><p>三五之夜，明月半墙，桂影斑驳，风移影动，珊珊可爱。</p><h2>题外话</h2><ul><li><a href="https://www.zhihu.com/question/359665884/answer/930734173">应试教育</a> 为什么中国低等教育的模式和质量可以如此之差？让人匪夷所思！想法设法用你们的‘规矩’来提高所谓的升学率，美其名曰为了孩子。。。。</li></ul>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/month_record_20191128</guid><title>十一月</title><description>凡是过往，皆为序章</description><link>http://www.fatbobman.com/posts/month_record_20191128</link><pubDate>Thu, 28 Nov 2019 12:00:00 +0800</pubDate><content:encoded><![CDATA[<h2>电影</h2><ul><li>★★★★★ 张涛 / 2015 / 中国大陆 <a href="https://movie.douban.com/subject/26671361/">喜丧</a> 太真实农村老人现状，每一幕都感同身受 没有所谓的触目惊心 也没有催人泪下 都是自己见过的，只有叹息！奶奶少受点苦</li></ul><ul><li>★★★★★ 王正方 / 1986 / 美国 中国大陆 / <a href="https://movie.douban.com/subject/1308369/">北京故事</a> 这真是80年代最真实的北京么？不知道 对首都向来没什么了解，看电影里拍摄的影像至少觉得比现在好 好很多！比李安更早的华人拍大陆的电影，原来也可以这么好，中美文化的碰撞或许也是导演这样的华人自身的困惑吧。 ‘大爷，你吃苦瓜么？’ ‘苦一辈子了，不吃那玩意儿’ 看老电影都值得玩味很久，好奇嘛 喜欢！<ul></ul></li></ul><ul><li>★★★★★ 陈凯歌 / 1987 / 中国大陆 / <a href="https://movie.douban.com/subject/1293391/">孩子王</a> 改变自己、改变孩子的识字水平是可以完成的事情，而改变孩子们心里面已形成的观念价值，却非易事。当农村孩子 社会最底层的孩子明白知识可以改变命运的时候，却仅仅只能靠一本字典 一个外物来获取，宿命就是从起点滚到到终点还在原地，想要摆脱这一切，绝非可以轻易借助外力。对于王福是，对于那群孩子更是，命运捉弄过你 你却还得服从。。 陈凯歌最好的电影！</li></ul><h2>影剧</h2><ul><li>2019 / 美剧 / <a href="https://movie.douban.com/subject/27625457/">去他X的世界</a> 剧的基调没变，是自己观感慢慢变了。电影看得多了 习惯于2个多小时就能得到结果 十集或者更长的剧就会觉得臃长，没有耐心。</li></ul><h2>访谈</h2><ul><li>十三邀：<a href="https://v.qq.com/x/cover/owtp1fpwj4wspcr/e0026q9wx2o.html?">许知远对话王小川</a> 对所有事情的存在都寻求一种解释，并且认为都有迹可循，最后与自己达成和解，这是属于每个人语汇的一种。好深刻的一次观感，哦 不对 所有的深刻都是狭义的，只是你还不懂而已！</li></ul><h2>一首诗</h2><pre data-language="undefined"><code>
+
+          從前的愛
+          
+        過去生活艰难
+          省吃俭用  
+        家里有一个花瓶  
+          並不插花  
+      父亲每日往瓶中存一元
+        
+          日复一日  
+           三年后  
+         托人去省城  
+      买回一条金质小项链  
+          送给妻子  
+         母亲很高兴  
+      我爱的能力或源于此。
+
+</code></pre><h2>短句</h2><ul><li>总有一阵风会吹过我再吹过你，总有一个瞬间我们之间的距离是零。</li></ul>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/Poem</guid><title>Poem</title><description>诗</description><link>http://www.fatbobman.com/posts/Poem</link><pubDate>Tue, 19 Nov 2019 12:00:00 +0800</pubDate><content:encoded><![CDATA[<pre data-language="undefined"><code>
+            剑客（贾岛）  
+
+        十年磨一剑，霜刃未曾试。  
+        今日把示君，谁有不平事？ 
+  
+</code></pre><pre data-language="undefined"><code>
+          從前的愛
+
+        過去生活艰难  
+        省吃俭用  
+        家里有一个花瓶  
+        並不插花  
+        父亲每日往瓶中存一元  
+        日复一日  
+        三年后  
+        托人去省城  
+        买回一条金质小项链  
+        送给妻子  
+        母亲很高兴  
+        我爱的能力或源于此。 
+</code></pre><pre data-language="undefined"><code>
+          你的花园  (赵野)   
+
+    紫竹、丹桂、腊梅、陶菊、罗汉松  
+    它们是你的世界，也将构成我的世界  
+    杜鹃、山茶、枇杷、惠兰、八仙花  
+    我一一了解它们的特性和质地  
+
+    一个诗人至少得认识二十四种植物  
+    在你的花园，我补习这门课程  
+
+    我珍惜这里的每一棵树，每一丛草  
+    脉气相连，方寸间事物常新  
+    我爱飞来的每一只蜻蜓、蜜蜂、蝴蝶  
+    怎样的因果才能造就一次相逢  
+    我相信在前世，它们和你，以及我  
+    会有一种不能舍弃的关系  
+
+    这些树次第发绿、开花、结果、凋零  
+    再长出新芽，我灵魂中的黑暗  
+    和似水的流年，渐渐升起亮色  
+    任人世多疯狂与痴妄  
+    我只沉湎于一种旧式的感动  
+    你的花园里  
+    每一株植物都有这样的身姿  
+
+    我们得向植物学习啊  
+    它们用自己的语言与气息，给我们暗示  
+    草木比动物接近内心  
+    而生命不会是一团火  
+    比如石头无需绚烂，只要静默的生长  
+    你的花园，我也该成为它的一部分  
+
+    怀着正午般悲悯，日日面对群山  
+    与伟大的亡灵对话，遥想一个盛世  
+    众鸟奔赴未来，我独回望过去  
+    你的花园就是历史和天下  
+    十万兵马依稀驰走苍山东麓  
+    多大的幻觉，我摘叶写下这篇诗歌  
+
+    一只松鼠进来，在小径上觅食  
+    一片樱花落下，四周悄无声息  
+    树枝的每一次折断都会让我痛楚  
+    你的花园里我恍惚最初的人  
+    阳光送来古老的祝福：  
+    “在此刻我是幸福的，我将因此幸福一生” 。
+    
+</code></pre><pre data-language="undefined"><code>
+        哄你睡觉 (刘墨闻)  
+
+    今晚不要去担心明天未发生的事  
+    我们的生活方式才是我们的人生底线  
+
+    就好像  
+    我信任你  
+    早已多过信任感情  
+    你依赖我  
+    像与生俱来的本能  
+
+    我们共同拥有的经营的 收获的  
+    亦是我们渴望的珍惜的 保护的  
+
+    七点的牛奶三点的茶  
+    六点的炊烟叫我回家  
+    挤一把大伞床头滚床尾  
+    沙发里聊聊芸芸事非  
+    你可以发呆或是想想晚饭  
+    在我牵着你回家的路上  
+
+    我们穿过灯红酒绿的荒芜和欲望  
+    趟过车水马龙的市井与城墙  
+    迷途未返总有意义  
+    马儿也要歇一歇 我们在路边小憩  
+    挑出你发丝里的细草  
+    拨出你衔在嘴角的发梢  
+    你的呼吸何时这样轻过  
+    在银河般深邃的夜里  
+
+    一次次将我击落  
+    亲爱的 晚安  
+    你睡你的  
+    我看我的。
+    
+</code></pre>]]></content:encoded></item><item><guid isPermaLink="true">http://www.fatbobman.com/posts/month_record_20191026</guid><title>十月</title><description>看过的电影 听过的歌 读过的书以及想过的</description><link>http://www.fatbobman.com/posts/month_record_20191026</link><pubDate>Sat, 26 Oct 2019 12:00:00 +0800</pubDate><content:encoded><![CDATA[<blockquote><p>看过的电影 听过的歌 读过的书以及想过的</p></blockquote><h2>电影</h2><ul><li>★★★★★ 侯孝贤 / 2000 / 台湾 /<a href="https://movie.douban.com/subject/1299103/">冬冬的假期</a></li></ul><p>不知道是不是胶片机的问题，每次看侯孝贤的电影总会先被画面的质感吸引，如果你有喜欢是枝裕和这个胶片控，在他的电影里肯定也能感受到！<br> 很多朋友会有像冬冬这样的童年假期吧，坐上两三小时长途车，带上三四件换洗衣物，被妈妈送到姥姥姥爷家，摸鱼 戏水 太阳底下的瓜棚里乘凉，渴了就翻身摘颗瓜用手大力劈开，大快朵颐几口把瓜子吐向玩伴，吃完把瓜皮罩在头顶西瓜太郎都有了！瓜自然不如现在冰冻后的口感好，但那种随意、散漫、傻里傻气想想可太乐了！<br> 还有就是多数人童年里都有一个疯子？从大人那里听来关于ta有的没的过往，我小时候见到的那个据说是第一任老婆生病去世，第二任结婚后跑掉了，听到时倒没觉得怕，就觉得怪可怜的，但是之后遇到还是会躲闪一旁，哪怕ta只会傻呵呵在哪儿乐着，有时还跟你要烟抽，给他烟他就什么都听你的 还会连连道谢。<br> 至于哥哥和妹妹两个不同视角反映出来的家庭关系并没有太想去弄懂，顺从也好固执也罢，这个夏天结束了，他们回台北上学长大 关于这个夏天他们还能有多少记忆，估计也只是个夏天而已!</p><ul><li>★★★★★ 霍建起 / 1999 / 中国大陆 /<a href="https://movie.douban.com/subject/1307766/">那山那人那狗</a></li></ul><p>这电影看完，确定自己是经常有多愁善感的情绪了，特别是父子情母子情，看再多电影也没法免疫。据称这是刘烨第一部电影，演得挺自然的，但看完还是对父亲出演者滕汝骏记忆犹新，可能是那骨瘦的脸跟我爸有点像吧。</p><ul><li>★★★☆☆ / 麦曦茵 / 2019 / 中国香港 中国大陆 / <a href="https://movie.douban.com/subject/26935296/">花椒之味</a></li></ul><p>一直挺喜欢郑秀文，颜值也好 演技也好，还记得第一部是看她的《瘦身男女》！这部的话剧情一般，后面太煽情了，有点看不下去 。</p><ul><li>★☆☆☆☆ / 陈国辉 / 2019 / 中国大陆 / <a href="https://movie.douban.com/subject/30221757/">烈火英雄</a><ul></ul></li></ul><p>很少给评一星的，一般觉得烂就标记下，这个简直给人看吐了。</p><h2>书</h2><ul><li>卡尔维诺：<a href="https://book.douban.com/subject/10555486/">分成两半的子爵</a></li></ul><p>即使把一个人炸成两半，也无法调和内心的冲突。纯粹的恶和迂腐的善带给人们的同样是痛苦，完整的一个人不能理解其他人由于自我不完整带来的痛苦，也不能体会每一个事物由于不完全而形成的缺陷。或许只有接受自己的不完满的缺陷，才能在这个遍是伤痕和忧愁的尘世活下去。</p><ul><li>老舍：<a href="https://book.douban.com/subject/3183775/">四世同堂</a></li></ul><p>北京胡同和上海弄堂大概是中国最能充当故事案发现场的地方。社会动荡 时代变迁，小人物像串串一样串在历史这条线上，善恶忠孝各种人到头来都只是挣扎，在被翻来滚去中挣扎。</p><h2>博客</h2><ul><li>反派影评：<a href="https://mp.weixin.qq.com/s/gEojaIiVBQYhbadQngsiIg">关于李安</a><ul></ul></li></ul><p>挺惊喜这期竟然跨界找来了陈丹青，节目之前说是已经把能播不能播的都聊了，对我朝一顿黑怕是少不了的，黑到深处自然香。很是同意陈丹青说“李安是有野心的人”，但我理解的是叛逆或者说对传统的颠覆。安叔这次拍的电影我没法说喜不喜欢，一是没看 二是对电影技术不了解也不感兴趣，但我还是认可他就是了！</p><ul><li>反派影评：<a href="https://mp.weixin.qq.com/s/TgBvwMNrO6yUOtwQy0nRQQ">马丁骂漫威，堪比老演员骂郭敬明</a></li></ul><p>漫威算不算电影？我觉得还是算吧，虽然我也从不看。<br> 郭敬明拍电影应该被骂么？骂就不用了，但是拍出来还能拿这么高的票房，国民观影水平有待提高呀！</p><ul><li>声东击西：<a href="https://www.etw.fm/journalist-emotional-labor">#94 聊聊记者不为人知的心理创伤</a></li></ul><p>看看记者的心理创伤。</p><h2>歌</h2><ul><li>The Weeknd/Daft Punk - <a href="https://music.163.com/#/song?id=431610014&userid=103886762">StarBoy</a><ul></ul></li></ul><ul><li>Wisp X - <a href="https://music.163.com/#/song?id=430297516&userid=103886762">Hold My Hand (Wisp X Remix)</a><ul></ul></li></ul><ul><li>Lil Dicky - <a href="https://music.163.com/song?id=1359521578&userid=103886762">Earth</a><ul></ul></li></ul><ul><li><a href="https://music.163.com/#/video?id=340E83F7B37469823B0A84174C63C60A&userid=103886762">女声版《不再让你孤单》</a><ul></ul></li></ul><ul><li><a href="https://music.163.com/video?id=06855BDD5A4C5E3250B2FA463BBE93DE&userid=103886762">陈冠希翻唱《不再让你孤单》</a><ul></ul></li></ul><p>陈升的歌</p><h2>一首诗</h2><pre data-language="undefined"><code>
+   
+          假如你必须嘶喊  
+   ［波兰］斯坦尼斯拉夫·巴兰扎克
+
+              假如
+       你必须嘶喊，请悄悄地喊  
+           （隔墙有耳）
+
+              假如
+        你必须做爱，请熄了灯  
+          （邻居有望远镜）
+
+              假如
+    你必须在此生活，请不要栓上大门
+          （当局有权进入）
+
+              假如
+     你必须受苦，请你在自己家里受
+          （生活有其法规）
+
+              假如
+    你必须活着，请你限制自己的一切
+          （一切都有限制）
+
+ 
+</code></pre>]]></content:encoded></item></channel></rss>
